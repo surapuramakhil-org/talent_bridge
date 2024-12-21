@@ -5,12 +5,17 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write # Grants permission to push changes to the repository
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false # Ensures no conflicting credentials
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
