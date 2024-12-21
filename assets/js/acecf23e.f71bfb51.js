@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktalent_bridge=self.webpackChunktalent_bridge||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/talent_bridge/blog","blogTitle":"Blog","authorsListPath":"/talent_bridge/blog/authors"}')}}]);

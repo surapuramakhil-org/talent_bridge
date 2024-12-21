@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktalent_bridge=self.webpackChunktalent_bridge||[]).push([[5068],{2100:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/talent_bridge/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
